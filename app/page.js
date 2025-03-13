@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Snowfall from "react-snowfall";
 import { motion } from "framer-motion";
 import Header from "./components/Header";
+import MyStack from "./components/MyStack";
 
 export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -182,7 +183,7 @@ export default function HomePage() {
                 experiences with Figma and deploying production-ready projects
                 using Vercel and Render.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              {/* <div className="mt-8 flex flex-wrap gap-3">
                 <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
                   HTML
                 </span>
@@ -207,10 +208,14 @@ export default function HomePage() {
                 <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
                   Figma
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.div>
+      </section>
+
+      <section>
+        <MyStack/>
       </section>
 
       <section id="projects" className="py-24 px-6 md:px-24 relative z-10">
