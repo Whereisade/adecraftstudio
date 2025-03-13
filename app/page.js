@@ -5,6 +5,7 @@ import Snowfall from "react-snowfall";
 import { motion } from "framer-motion";
 import Header from "./components/Header";
 import MyStack from "./components/MyStack";
+import Image from "next/image";
 
 export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -54,7 +55,8 @@ export default function HomePage() {
         "Catering & Event Website built using Next.js and Tailwind CSS. Fully responsive with SEO best practices.",
       liveLink: "https://www.omowunmikitchen.com.ng/",
       tags: ["Next.js", "Tailwind CSS", "React"],
-      image: "/api/placeholder/600/400",
+      image:
+        "https://res.cloudinary.com/ddrylpaqx/image/upload/v1741865533/Screenshot_2025-03-13_122528_ts8cij.png",
     },
     {
       title: "Omowunmi Kitchen Booking Management System",
@@ -63,7 +65,8 @@ export default function HomePage() {
       liveLink: "https://wunmi-books.vercel.app/",
       githubLink: "https://github.com/Whereisade/wunmi-books-admin",
       tags: ["Next.js", "Tailwind CSS", "Django REST"],
-      image: "/api/placeholder/600/400",
+      image:
+        "https://res.cloudinary.com/ddrylpaqx/image/upload/v1741865532/Screenshot_2025-03-13_123149_bvci9m.png",
     },
     {
       title: "Ori-Ire Hospital Website",
@@ -71,7 +74,8 @@ export default function HomePage() {
         "Healthcare facility website featuring interactive sections, SEO optimization, and appointment forms.",
       liveLink: "https://healthcare-eta-liard.vercel.app/",
       tags: ["Next.js", "Responsive", "SEO"],
-      image: "/api/placeholder/600/400",
+      image:
+        "https://res.cloudinary.com/ddrylpaqx/image/upload/v1741865533/Screenshot_2025-03-13_122555_gg08lw.png",
     },
     {
       title: "Omowunmi Kitchen Booking API",
@@ -80,7 +84,8 @@ export default function HomePage() {
       liveLink: "https://wunmi-books.onrender.com/",
       githubLink: "https://github.com/Whereisade/Wunmi-books-api",
       tags: ["Django", "DRF", "PostgreSQL"],
-      image: "/api/placeholder/600/400",
+      image:
+        "https://res.cloudinary.com/ddrylpaqx/image/upload/v1741865747/Gemini_Generated_Image_xi5iquxi5iquxi5i_lr2whu.jpg",
     },
   ];
 
@@ -168,8 +173,17 @@ export default function HomePage() {
         >
           <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
           <div className="flex flex-col md:flex-row gap-12 items-center">
-            {/* <div className="w-48 h-48 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex-shrink-0"></div> */}
-            
+            <div className="w-48 h-48 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex-shrink-0 overflow-hidden">
+              <Image
+                src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1741866256/q_fqd1dr.jpg"
+                alt="fawaz adewuyi"
+                width={192}
+                height={192}
+                layout="responsive"
+                objectFit="cover"
+              />
+            </div>
+
             <div>
               <p className="text-lg leading-relaxed">
                 I'm a versatile and detail-oriented Fullstack Web Developer and
@@ -183,39 +197,13 @@ export default function HomePage() {
                 experiences with Figma and deploying production-ready projects
                 using Vercel and Render.
               </p>
-              {/* <div className="mt-8 flex flex-wrap gap-3">
-                <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
-                  HTML
-                </span>
-                <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
-                  CSS
-                </span>
-                <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
-                  JavaScript
-                </span>
-                <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
-                  React
-                </span>
-                <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
-                  Next.js
-                </span>
-                <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
-                  Tailwind CSS
-                </span>
-                <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
-                  Django
-                </span>
-                <span className="px-4 py-2 bg-blue-900/40 rounded-full text-sm">
-                  Figma
-                </span>
-              </div> */}
             </div>
           </div>
         </motion.div>
       </section>
 
       <section>
-        <MyStack/>
+        <MyStack />
       </section>
 
       <section id="projects" className="py-24 px-6 md:px-24 relative z-10">
@@ -371,10 +359,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-2xl font-semibold">Education</h3>
               <ul className="list-disc list-inside text-gray-300">
-                <li>
-                  B.Sc. Accounting – Babcock University, Ogun,
-                  Nigeria
-                </li>
+                <li>B.Sc. Accounting – Babcock University, Ogun, Nigeria</li>
                 <li>
                   SSCE – Dee Unique College, Abesan Estate, Ipaja, Lagos State
                 </li>
@@ -437,7 +422,7 @@ export default function HomePage() {
               </a>
 
               <a
-                href="https://linkedin.com/in/your-linkedin"
+                href="https://linkedin.com/in/fawaz-adewuyi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-4 bg-gray-800 hover:bg-gray-700 rounded-lg transition w-full sm:w-auto"
@@ -455,7 +440,11 @@ export default function HomePage() {
               </a>
             </div>
 
-            <form className="flex flex-col gap-4 w-full">
+            <form
+              className={
+                'flex flex-col gap-4 w-full action="https://formsubmit.co/fawazadewuyi23@gmail.com" method="POST"'
+              }
+            >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <input
                   type="text"
