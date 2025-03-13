@@ -30,7 +30,7 @@ export default function MyStack() {
     <section className="relative min-h-screen text-white py-16 px-6 bg-gray-800/50">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-[auto,1fr] gap-8 items-start mb-12">
-          <h3 className="text-5xl md:text-6xl font-bold uppercase leading-none">
+          <h3 className="text-4xl md:text-6xl font-bold uppercase leading-none">
             Frontend
           </h3>
           <div className="flex flex-wrap items-center gap-6">
@@ -78,7 +78,7 @@ export default function MyStack() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-[auto,1fr] gap-8 items-start mb-12">
-          <h3 className="text-5xl md:text-6xl font-bold uppercase leading-none">
+          <h3 className="text-4xl md:text-6xl font-bold uppercase leading-none">
             Backend
           </h3>
           <div className="flex flex-wrap items-center gap-6">
@@ -98,7 +98,7 @@ export default function MyStack() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-[auto,1fr] gap-8 items-start mb-12">
-          <h3 className="text-5xl md:text-6xl font-bold uppercase leading-none">
+          <h3 className="text-4xl md:text-6xl font-bold uppercase leading-none">
             Database
           </h3>
           <div className="flex flex-wrap items-center gap-6">
@@ -122,7 +122,7 @@ export default function MyStack() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-[auto,1fr] gap-8 items-start">
-          <h3 className="text-5xl md:text-6xl font-bold uppercase leading-none">
+          <h3 className="text-4xl md:text-6xl font-bold uppercase leading-none">
             Tools
           </h3>
           <div className="flex flex-wrap items-center gap-6">
