@@ -50,10 +50,7 @@ export default function MyStack() {
               <SiNextdotjs className="text-white text-2xl" />
               <span>Next.js</span>
             </div>
-            <div className="flex items-center space-x-2">
-              <SiRedux className="text-purple-500 text-2xl" />
-              <span>Redux</span>
-            </div>
+            
             <div className="flex items-center space-x-2">
               <SiTailwindcss className="text-sky-400 text-2xl" />
               <span>Tailwind CSS</span>
@@ -86,14 +83,7 @@ export default function MyStack() {
               <FaNodeJs className="text-green-400 text-2xl" />
               <span>Node.js</span>
             </div>
-            <div className="flex items-center space-x-2">
-              <SiNestjs className="text-red-600 text-2xl" />
-              <span>Nest.js</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <SiExpress className="text-gray-300 text-2xl" />
-              <span>Express.js</span>
-            </div>
+            
           </div>
         </div>
 
@@ -114,10 +104,7 @@ export default function MyStack() {
               <SiMongodb className="text-green-400 text-2xl" />
               <span>MongoDB</span>
             </div>
-            <div className="flex items-center space-x-2">
-              <SiPrisma className="text-blue-500 text-2xl" />
-              <span>Prisma</span>
-            </div>
+            
           </div>
         </div>
 
