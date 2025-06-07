@@ -150,12 +150,21 @@ export default function HomePage() {
           <p className="text-xl md:text-2xl text-blue-400 mb-8">
             Fullstack Web Developer & UI/UX Designer
           </p>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+
           <a
             href="#projects"
-            className="px-8 py-3 bg-blue-600 rounded-full text-white font-medium hover:bg-blue-700 transition shadow-lg hover:shadow-blue-500/30"
+            className="px-8 py-3 bg-blue-500 rounded-full text-white font-medium hover:bg-blue-600 transition shadow-lg hover:shadow-blue-400/30"
           >
             View My Work
           </a>
+          <a
+            href="https://docs.google.com/document/d/1So28wMeH4fdnVfLTVCK46hPScnjB0SG-2apk1tBVoiY/edit?usp=sharing"
+            className="px-8 py-3 bg-blue-500 rounded-full text-white font-medium hover:bg-blue-600 transition shadow-lg hover:shadow-blue-400/30"
+          >
+            My CV
+          </a>
+          </div>
         </motion.div>
       </header>
 
@@ -255,7 +264,7 @@ export default function HomePage() {
                         href={project.liveLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block px-4 py-2 bg-blue-600 rounded-lg text-sm hover:bg-blue-700 transition"
+                        className="inline-block px-4 py-2 bg-blue-500 rounded-lg text-sm hover:bg-blue-600 transition"
                       >
                         Live Demo
                       </a>
@@ -308,7 +317,7 @@ export default function HomePage() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block px-4 py-2 bg-blue-600 rounded-lg text-sm hover:bg-blue-700 transition"
+                    className="inline-block px-4 py-2 bg-blue-500 rounded-lg text-sm hover:bg-blue-600 transition"
                   >
                     View Design
                   </a>
@@ -337,6 +346,14 @@ export default function HomePage() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold">
+              Fullstack Developer Intern – Univelcity, Lagos, Nigeria
+              </h3>
+              <p className="text-gray-300">
+              Developed responsive web apps with React, Next.js, Tailwind CSS, Python, and Django, ensuring cross-device usability. Built secure RESTful APIs and integrated PostgreSQL for efficient data management. Translated Figma designs into functional interfaces and collaborated in agile teams to deliver features on tight deadlines. Gained experience with Git, Vercel, and Render for version control and deployment.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold">
                 Fullstack Developer – Omowunmi Kitchen, Lagos, Nigeria
               </h3>
               <p className="text-gray-300">
@@ -345,6 +362,14 @@ export default function HomePage() {
                 Python and Django on the backend. Collaborated with
                 cross-functional teams to deliver end-to-end solutions in an
                 agile environment.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold">
+                Junior Product Engineer – Reispar Technologies, Lagos, Nigeria
+              </h3>
+              <p className="text-gray-300">
+              Led end-to-end product design for integrating B2B features into a B2C app, aligning user experience with business goals. Conducted user and stakeholder research, identified pain points, and designed unified user flows. Delivered wireframes and high-fidelity prototypes in Figma for responsive web. Collaborated with product and engineering teams in agile sprints, iterated based on feedback, and validated designs through usability testing and cross-functional critiques.
               </p>
             </div>
             <div>
