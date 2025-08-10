@@ -32,8 +32,22 @@ export default function HomePage() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
+          <motion.div
+            initial={{ rotate: 0 }}
+            animate={{ rotate: 360 }}
+            transition={{ duration: 2, ease: "linear" }}
+            className="mx-auto mb-6 w-20 h-20 flex items-center justify-center"
+          >
+            <Image
+              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1754824885/single_logo_nxknkx.png"
+              alt="AdeCraft Logo"
+              width={80}
+              height={80}
+              priority
+            />
+          </motion.div>
           <h1 className="text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-            AdeCraft<br/><span className="text-4xl">STUDIO</span>
+            AdeCraft<br /><span className="text-4xl">STUDIO</span>
           </h1>
           <div className="mt-4">
             <motion.div
