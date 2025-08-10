@@ -33,7 +33,7 @@ export default function HomePage() {
           className="text-center"
         >
           <h1 className="text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-            MEET FAWAZ
+            AdeCraft<br/><span className="text-4xl">STUDIO</span>
           </h1>
           <div className="mt-4">
             <motion.div
@@ -145,10 +145,10 @@ export default function HomePage() {
           transition={{ duration: 1 }}
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
-            Welcome to Fawaz's Portfolio
+            Welcome to AdeCraft Studio
           </h1>
           <p className="text-xl md:text-2xl text-blue-400 mb-8">
-            Fullstack Web Developer & UI/UX Designer
+            Web Design & Software Development Agency
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
 
@@ -156,14 +156,14 @@ export default function HomePage() {
             href="#projects"
             className="px-8 py-3 bg-blue-500 rounded-full text-white font-medium hover:bg-blue-600 transition shadow-lg hover:shadow-blue-400/30"
           >
-            View My Work
+            View Our Work
           </a>
-          <a
+          {/* <a
             href="https://docs.google.com/document/d/1So28wMeH4fdnVfLTVCK46hPScnjB0SG-2apk1tBVoiY/edit?usp=sharing"
             className="px-8 py-3 bg-blue-500 rounded-full text-white font-medium hover:bg-blue-600 transition shadow-lg hover:shadow-blue-400/30"
           >
             My CV
-          </a>
+          </a> */}
           </div>
         </motion.div>
       </header>

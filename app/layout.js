@@ -4,8 +4,8 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "Fawaz's Portfolio",
-  description: "Personal portfolio of Fawaz",
+  title: "AdeCraft Studio",
+  description: "Personal portfolio of AdeCraft Studio, showcasing web design and software development expertise",
 };
 
 export default function RootLayout({ children }) {

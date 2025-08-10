@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image"; // Add this import
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,15 @@ export default function Header() {
 
   return (
     <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-[90%] bg-transparent backdrop-blur-md flex items-center justify-between rounded-full px-8 py-2 shadow-md text-white">
-      <div className="text-2xl font-bold tracking-wider cursor-pointer">FINDING FAWAZ</div>
+      <div className="flex items-center space-x-3 text-2xl font-bold tracking-wider cursor-pointer">
+        <Image
+          src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1754824885/single_logo_nxknkx.png"
+          alt="AdeCraft Logo"
+          width={40}
+          height={40}
+        />
+        <h2 className="text-white">AdeCraft</h2>
+      </div>
 
       <ul className="hidden md:flex space-x-8">
         <li>
@@ -36,9 +45,9 @@ export default function Header() {
 
       <div className="hidden md:flex space-x-6">
         <a
-          href="mailto:fawazadewuyi23@gmail.com"
+          href="mailto:adecraftstudio@yahoo.com"
           className="hover:text-white transition"
-          aria-label="Email Fawaz"
+          aria-label="Email AdeCraft Studio"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -68,11 +77,11 @@ export default function Header() {
           </svg>
         </a>
         <a
-          href="https://linkedin.com/in/fawaz-adewuyi/"
+          href="https://www.linkedin.com/company/adecraftstudio/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition"
-          aria-label="Fawaz LinkedIn"
+          aria-label="AdeCraft Studio LinkedIn"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +202,7 @@ export default function Header() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/your-linkedin-username"
+              href="https://www.linkedin.com/company/adecraftstudio/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
