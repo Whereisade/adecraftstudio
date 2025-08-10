@@ -46,8 +46,10 @@ export default function HomePage() {
               priority
             />
           </motion.div>
-          <h1 className="text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-            AdeCraft<br /><span className="text-4xl">STUDIO</span>
+          <h1 className="text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 leading-relaxed">
+            AdeCraft
+            <br />
+            <span className="text-4xl -mt-4 block">STUDIO</span>
           </h1>
           <div className="mt-4">
             <motion.div
