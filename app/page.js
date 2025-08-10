@@ -151,14 +151,13 @@ export default function HomePage() {
             Web Design & Software Development Agency
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-
-          <a
-            href="#projects"
-            className="px-8 py-3 bg-blue-500 rounded-full text-white font-medium hover:bg-blue-600 transition shadow-lg hover:shadow-blue-400/30"
-          >
-            View Our Work
-          </a>
-          {/* <a
+            <a
+              href="#projects"
+              className="px-8 py-3 bg-blue-500 rounded-full text-white font-medium hover:bg-blue-600 transition shadow-lg hover:shadow-blue-400/30"
+            >
+              View Our Work
+            </a>
+            {/* <a
             href="https://docs.google.com/document/d/1So28wMeH4fdnVfLTVCK46hPScnjB0SG-2apk1tBVoiY/edit?usp=sharing"
             className="px-8 py-3 bg-blue-500 rounded-full text-white font-medium hover:bg-blue-600 transition shadow-lg hover:shadow-blue-400/30"
           >
@@ -184,7 +183,7 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="w-48 h-48 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex-shrink-0 overflow-hidden">
               <Image
-                src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1741866256/q_fqd1dr.jpg"
+                src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1754824887/Logo_njnkur.png"
                 alt="fawaz adewuyi"
                 width={192}
                 height={192}
@@ -195,16 +194,13 @@ export default function HomePage() {
 
             <div>
               <p className="text-lg leading-relaxed">
-                I'm a versatile and detail-oriented Fullstack Web Developer and
-                UI/UX Designer with a strong foundation in both frontend and
-                backend development. I specialize in building scalable,
-                responsive, and high-performance web applications using modern
-                technologies like React, Next.js, and Tailwind CSS. On the
-                backend, I work with Django and Django REST Framework to create
-                clean, maintainable code and secure authentication systems. I'm
-                also passionate about crafting intuitive, user-centered digital
-                experiences with Figma and deploying production-ready projects
-                using Vercel and Render.
+                AdeCraft Studio is a digital solutions company offering
+                end-to-end website design, development, and branding services.
+                We work with individuals, startups, and small businesses to
+                build engaging online experiences, from personal portfolios to
+                full-scale e-commerce platforms. Our services include UI/UX
+                design, custom backend development, and brand identity creation,
+                tailored to help our clients succeed in the digital space.
               </p>
             </div>
           </div>
@@ -346,10 +342,16 @@ export default function HomePage() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold">
-              Fullstack Developer Intern – Univelcity, Lagos, Nigeria
+                Fullstack Developer Intern – Univelcity, Lagos, Nigeria
               </h3>
               <p className="text-gray-300">
-              Developed responsive web apps with React, Next.js, Tailwind CSS, Python, and Django, ensuring cross-device usability. Built secure RESTful APIs and integrated PostgreSQL for efficient data management. Translated Figma designs into functional interfaces and collaborated in agile teams to deliver features on tight deadlines. Gained experience with Git, Vercel, and Render for version control and deployment.
+                Developed responsive web apps with React, Next.js, Tailwind CSS,
+                Python, and Django, ensuring cross-device usability. Built
+                secure RESTful APIs and integrated PostgreSQL for efficient data
+                management. Translated Figma designs into functional interfaces
+                and collaborated in agile teams to deliver features on tight
+                deadlines. Gained experience with Git, Vercel, and Render for
+                version control and deployment.
               </p>
             </div>
             <div>
@@ -369,7 +371,14 @@ export default function HomePage() {
                 Junior Product Engineer – Reispar Technologies, Lagos, Nigeria
               </h3>
               <p className="text-gray-300">
-              Led end-to-end product design for integrating B2B features into a B2C app, aligning user experience with business goals. Conducted user and stakeholder research, identified pain points, and designed unified user flows. Delivered wireframes and high-fidelity prototypes in Figma for responsive web. Collaborated with product and engineering teams in agile sprints, iterated based on feedback, and validated designs through usability testing and cross-functional critiques.
+                Led end-to-end product design for integrating B2B features into
+                a B2C app, aligning user experience with business goals.
+                Conducted user and stakeholder research, identified pain points,
+                and designed unified user flows. Delivered wireframes and
+                high-fidelity prototypes in Figma for responsive web.
+                Collaborated with product and engineering teams in agile
+                sprints, iterated based on feedback, and validated designs
+                through usability testing and cross-functional critiques.
               </p>
             </div>
             <div>
