@@ -360,7 +360,7 @@ export default function HomePage() {
           <div className="bg-gray-900/70 p-8 rounded-xl backdrop-blur-sm">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8">
               <a
-                href="mailto:fawazadewuyi23@gmail.com"
+                href="mailto:adecraftstudio@yahoo.com"
                 className="flex items-center gap-3 px-6 py-4 bg-gray-800 hover:bg-gray-700 rounded-lg transition w-full sm:w-auto"
               >
                 <svg
@@ -372,7 +372,7 @@ export default function HomePage() {
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                <span>fawazadewuyi23@gmail.com</span>
+                <span>adecraftstudio@yahoo.com</span>
               </a>
 
               <a
@@ -394,7 +394,7 @@ export default function HomePage() {
               </a>
 
               <a
-                href="https://linkedin.com/in/fawaz-adewuyi"
+                href="https://www.linkedin.com/company/adecraftstudio/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-4 bg-gray-800 hover:bg-gray-700 rounded-lg transition w-full sm:w-auto"
@@ -414,7 +414,7 @@ export default function HomePage() {
 
             <form
               className={
-                'flex flex-col gap-4 w-full action="https://formsubmit.co/fawazadewuyi23@gmail.com" method="POST"'
+                'flex flex-col gap-4 w-full action="https://formsubmit.co/adecraftstudio@yahoo.com" method="POST"'
               }
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
